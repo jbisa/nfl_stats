@@ -1,0 +1,4 @@
+#!/Users/jbisa/python_workspace/nfl_stats/bin/python
+
+import nflgame.update_players
+nflgame.update_players.run()
