@@ -43,7 +43,7 @@ emanning_yds = []
 emanning_tds = []
 emanning_ints = []
 
-for num_year in range(2013,2016):
+for num_year in range(2015,2016):
     for num_week in range(1,18):
         game = nflgame.games(num_year, week=num_week)
         players = nflgame.combine_game_stats(game)
